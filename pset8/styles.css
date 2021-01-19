@@ -1,0 +1,80 @@
+.jumbotron {
+    background-color: #191970;
+    color: #fff;
+    margin-bottom: 0rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+.mainButtons{
+    padding: 0px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: #7B68EE;
+    color: white;
+    width: 310px;
+}
+
+body{
+    background-color: #4B0082;
+    color: white;
+}
+.two{
+    height:25%;
+    width: 25%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.three{
+    height:25%;
+    width: 25%;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.four{
+    height:25%;
+    width: 25%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.five{
+    height:25%;
+    width: 25%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+#first{
+    font-size: 20px;
+}
+#second{
+    font-size: 20px;
+}
+.indent{
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+.eduimg{
+    padding: 0.5rem 2rem 1rem 2rem;
+    height:25%;
+    width: 25%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+input {
+    width: 375px;
+    height: 25px;
+    margin-left: 1rem;
+
+}
+#comments{
+    width: 375px;
+    height: 150px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 120px;
+    padding-right: 0.4em;
+}
