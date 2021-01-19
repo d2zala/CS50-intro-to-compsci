@@ -1,2 +1,2 @@
 # CS50-intro-to-compsci
-This is my code for the different problems sets solved in CS50
+These are my solutions to the different problem sets for CS50: An Introduction to Computer Science, a course by Harvard.
