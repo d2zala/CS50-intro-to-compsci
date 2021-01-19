@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <table class="table">
+                <tr>
+                    <th>Stock Symbol</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+                {% for transact in transactions %}
+                    <tr>
+                        <td>{{ transact["stock"] }}</td>
+                        <td>{{ transact["number"] }}</td>
+                        <td>{{ transact["cost"] | usd }}</td>
+                        <td>{{ transact["date"] }}</td>
+                    </tr>
+                {% endfor %}
+        </table>
+    </div>
+{% endblock %}
